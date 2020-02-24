@@ -1,0 +1,150 @@
+
+body, html{
+    height: 100%;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    background-color: aqua;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    background-image: url(../Skynet/aiPics/AI_1.jpg);
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#title{
+    display: relative;
+    font-size: 50px;
+    color: black;
+    padding-top: 20px;
+
+}
+h1{
+    display: relative;
+    font-size: 60px;
+    color: gold;
+    font-weight: bold;
+    padding-left: 600px;
+    padding-top: 600px;
+}
+
+.nav navbar-nav{
+    color: yellow;
+}
+.block1{
+    display: flex;
+    padding-right: 10px
+}
+#button1{
+    background-image: url(../Skynet/ai_clicking.jpg);
+    height: 150px;
+    width: 275;    
+}
+.container2{
+    margin-left: 20px;
+    margin-right: 0px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;  
+    height: 450px;
+    animation: pulse 2s infinite;   
+}
+
+    @keyframes pulse {
+        0% {
+            background-color: rgb(110, 190, 190);
+        }
+        100% {
+    }
+}
+
+h2{
+      color: chocolate;
+  } 
+
+title{
+    text-align: center;
+}
+
+hr{
+    display: flex;   
+    margin-left: 5px;
+    margin-right: 0px;
+    background-color: gray;
+    height: 1px;
+
+}
+br{
+    color: aqua;
+}
+.block2{
+    
+    display: flex;
+    padding-right: 25px;
+}
+#button2{
+    display: flex;
+    background-color: rgb(13, 160, 197);
+    font-weight: bold;
+    padding: 10px;
+
+}
+ #button3{
+    display: flex;
+    background-color: rgb(13, 160, 197);
+    font-weight: bold;
+    padding: 10px; 
+ }
+
+ .robotics{
+    display: inline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+.ai{
+    display: inline;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+.network{
+    display: inline; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+.contactus{
+    display: inline; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px; 
+}
+#return{
+  
+    
+    font-size: 35px;
+    font-weight: bold;
+}
+#navigation{
+   
+    background-color: aqua;
+    display: flex;
+    padding-left: 300px;
+    font-weight: bold;
+}

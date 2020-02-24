@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact us</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Skynet</h1>
+        </header>
+        <link rel="stylesheet" type="text/css" href="contactus.css"/>
+        <div class="navigation">
+            <nav>
+               <a href="home.html">Home</a>
+               <a href="./about.html">About</a>
+               <a href="./events.html">Events</a>
+               <a href="./services/products.html">Products</a>
+               <a href="./contactus.html">Contact us</a>
+            </nav>
+            <hr/>
+    </head>
+    <body>
+        <p id="instruction">Please fill out the form</p>
+        
+        <form name="input_form" action="javascript:validate();">
+                <label>First Name:</label>
+                <input type="text" name="First Name" required>
+                <label>Last Name:</label>
+                <input type="text" name="Last Name" required>
+                <label>Email:</label>
+                <input type="text" name="email" required>
+                <p><br>
+                <label>City</label>
+                <input type="text" name="City" required>
+                <label>State</label>
+                <input type="text" name="State" required>
+                <label>Country</label>
+                <input type="text" name="Country" required>
+                </p><br>
+                    
+                <div id="buttonsConatiner">
+                    <div id="robots">
+                        <button onclick="Robot_selection()"  id="robotBtn">Select a Robot class <input type="text" name="R_choice"></button>
+                        <script src="contactus.js"></script>
+                        <div id="robotList">                        
+                            <a href="#t200" onclick="robot(1)">T-200 (Trolls)</a>
+                            <a href="#t400">T-400 (Rustlers)</a>
+                            <a href="#t600">T-600 (Rubber Skins)</a>
+                            <a href="#t800">T-800 (Fleshlinks)</a>
+                            <a href="#t100">T-1000 (Trolls)</a>
+                         </div>
+                     </div> 
+                     <div id="AI">
+                            <button onclick="AI_selection()"  id="aiBtn">Select an AI application<input type="text" name="AI_choice"> </button>
+                            <script src="contactus.js"></script>
+                            <div id="aiList">                        
+                                <a href="#Gov">Goverment</a>
+                                <a href="#Manuf">Manufacturing</a>
+                                <a href="#Mark">Marketing</a>
+                                <a href="#Med">Medicine</a>
+                                <a href="#IoT">IoT</a>
+                                <a href="#Farm">Farming</a>
+                             </div>
+                         </div> 
+                         <div id="Networking">
+                                <button onclick="Networking_selection()"  id="netBtn">Select a Netwok application <input type="text" name="Net_choice"> </button>
+                                <script src="contactus.js"></script>
+                                <div id="networkList">                        
+                                    <a href="#Job">JobSite</a>
+                                    <a href="#Govern">Government</a>
+                                    <a href="#Home">Home</a>
+                                    <a href="#Enter">Enterprise</a>
+                                    <a href="#Trans">Trasnational</a>
+                                 </div>
+                             </div> 
+                </div> <!-- closing the button container to see if buttons can be position-->   
+                    <br> 
+                     
+
+            </form>
+            <form>
+            <p><br><br><br> 
+            <br><br><br><br>     
+            <div id="inquiring">
+            <textarea id="inquiry" rows = 5 cols="60">Tell us more about what you are looking for ...</textarea>
+            </div>
+            </p>
+            <button id="submit">submit</button>          
+            </form>
+    </body>
+</html>

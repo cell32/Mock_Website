@@ -1,0 +1,46 @@
+header{
+    background-color: rgb(0, 217, 255);
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+body{
+    background-color: rgb(5, 202, 202);
+    border: 30;
+    padding: 30;
+    
+}
+nav{
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 20px;
+}
+.container2{
+    display: block;
+    background-color: rgb(0, 217, 255);
+
+}
+
+.robotics{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+.ai{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+.network{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+

@@ -1,0 +1,134 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <title>AI</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+                <h2 id="title">Welcome to Skynet Artificial Intelligence</h2>           
+                <img src="../Skynet/aiPics/AI_3.jpg" width="1505" height="975" >>
+        </header>
+            <link rel="stylesheet" type="text/css" href="ai.css"/>
+                <div class="navigation">
+                    <nav class="navbar navbar-inverse navbar-fixed-top">
+                        <div class="container">  
+                         
+                            <h1>SKYNET AI</h1>    
+                        </div>    
+                    </nav>
+                 </div>   
+                
+           <div class="block1">  
+                <div class="container1">
+                    <img src="../Skynet/aiPics/AI_4.jpg" alt="robot looking at a skull" width="745" height="450" margin-right="20px">
+                </div>
+                
+                <div class="container2">
+                    <button onclick="aiInfoClick()" id="button1"></button>   
+                    <h3>Click the robot to find out what's AI</h3>
+                    <hr> 
+                    <div id="aiInfo">
+                        <script>
+                            var i = 0;
+                            var aiTxt ='Artificial intelligence (AI), sometimes called machine intelligence,' + 
+                                     ' is intelligence demonstrated by machines, in contrast to the natural intelligence displayed'+
+                                     ' by humans and other animals. In computer science AI research is defined as the study of'+
+                                     ' "intelligent agents": any device that perceives its environment and takes actions that'+ 
+                                     ' maximize its chance of successfully achieving its goals. Colloquially, the term "artificial intelligence"'+
+                                     ' is applied when a machine mimics "cognitive" functions that humans associate with other human minds,'+
+                                     ' such as "learning" and "problem solving".'+
+                                     ' Skynet AI uses the most advance ML models available and advance algorithms to solve complex problems. Skynet AI is currently'+
+                                     ' applied on Its Robots line up incluging T-200, T-4OO, T-600, T-800 and T-1000, the most advance robot. AI application ranges from' +
+                                     ' Government agenecies to Agricultural (Farming), from  Military to  Medicine and Manufacturing. etc.'
+                                    
+                            var speed = 10;
+                                
+                            function aiInfoClick() {
+                            if (i < aiTxt.length) {
+                                document.getElementById("aiInfo").innerHTML += aiTxt.charAt(i);
+                                i++;
+                                setTimeout(aiInfoClick, speed);
+                                }
+                            }      
+                        </script>
+                    </div>                
+                </div> 
+           </div> 
+          <p>   
+            <div class="block2">  
+                <div class="container3">
+                    <img src="../Skynet/aiPics/AI_5.jpg" alt="brain on hand" width="745" height="450" margin-right="20px">  
+                </div>
+                <div class="conatiner4">
+                   <h3>Let AI help you to:</h3>  
+          </p>              
+                       <!--Button with even handler to show date -->        
+                        <button id="button2">What's today date?</button>
+                        <p>
+                        <div id="date"></div>
+                        
+                        <script>  
+                            function displayDate() {
+                            document.getElementById("date").innerHTML = Date();
+                            }
+
+                            document.getElementById("button2").addEventListener("click", displayDate);
+                        </script>                       
+                        </p>
+                        
+                        <p>
+                            <!--Quadratic equation design below-->
+                        <table style="font-family:verdana;">
+                            <tr>
+                                <td>&minus;b &plusmn; 
+                                &radic;<span style="text-decoration:overline"> &nbsp;
+                                b<span style="font-size: 10px;vertical-align:+25%;">2</span> &minus; 
+                                4ac&nbsp;</span></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align:center;">
+                                <span style="text-decoration:overline;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                2a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+                                </td>
+                            </tr>
+                        </table> 
+                        <!--Quadratic equation design ends-->
+                        </p> 
+
+                        <p>
+                        <div id="equeation"></div>
+
+                        <!--script under construction-->
+                        <script src="../ai.ts">
+                            function quadraticEq(){
+                               document.getElementById("equation").innerHTML = quadraticEq(); 
+                            }
+                            document.getElementById("button3").addEventListener("click", quadraticEq);
+                        </script>
+                        </p>
+                        <h3>Enter a value for b:</h3> <textarea></textarea><h3>Enter a value for a:</h3><textarea></textarea>
+                        <button id="button3">Solve the Equation</button>
+                    </div>
+                </div>
+
+                <hr>
+                  <div id="navigation">
+                     <h2 id="return">Back to:</h2>
+                        <div class="robotics">
+                            <a href="../Skynet/robotics.html">Robotics</a>                                   
+                        </div>
+                        <div class="ai">
+                            <a href="../Skynet/ai.html">AI</a>
+                         </div>
+                        <div class="network">
+                            <a href="../Skynet/networking.html">Networking</a>   
+                        </div> 
+                        <div class="contactus">
+                            <a href="./contactus.html">Contact us</a>
+                        </div>
+                  </div>
+                                           
+    </body> 
+</html>

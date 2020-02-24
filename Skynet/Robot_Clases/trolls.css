@@ -1,0 +1,35 @@
+header{
+    background-color: rgb(0, 217, 255);
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+}
+body{
+    background-color: rgb(5, 202, 202);
+    border: 30;
+    padding: 5;
+    
+}
+   
+
+nav{
+    background-color: lightblue;
+    padding: 20px;
+    font-size: 20px;
+} 
+h1{
+    position: center;
+}
+.trolls{
+    display: inline-flex;
+    font-size: 18px;
+        /*color: aquamarine; */
+}
+
+.paragraphText{
+    font-size: 18px;
+    padding: 30px;
+    border: 30px;
+
+}
